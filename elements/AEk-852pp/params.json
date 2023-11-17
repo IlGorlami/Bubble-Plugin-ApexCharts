@@ -1,0 +1,263 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Apex Chart (custom)",
+    "events": {
+        "AEP": {
+            "caption": "Has been updated",
+            "name": "updated"
+        }
+    },
+    "fields": {
+        "AEl": {
+            "caption": "annotations",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/annotations/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "annotations",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AEm": {
+            "caption": "chart",
+            "default_val": "{}",
+            "doc": "https://apexcharts.com/docs/options/chart/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "chart",
+            "optional": false,
+            "rank": 1,
+            "value": "text"
+        },
+        "AEn": {
+            "caption": "colors",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/colors/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "colors",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AEo": {
+            "caption": "dataLabels",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/datalabels/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "dataLabels",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AEp": {
+            "caption": "fill",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/fill/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "fill",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AEq": {
+            "caption": "forecastDataPoints",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/forecastdatapoints/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "forecastDataPoints",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AEr": {
+            "caption": "grid",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/grid/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "grid",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "AEs": {
+            "caption": "labels",
+            "default_val": "{}",
+            "doc": "https://apexcharts.com/docs/options/labels/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "labels",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "AEt": {
+            "caption": "legend",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/legend/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "legend",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "AEu": {
+            "caption": "markers",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/markers/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "markers",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "AEv": {
+            "caption": "noData",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/nodata/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "nodata",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "AEw": {
+            "caption": "plotOptions",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/plotoptions/area/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "plotOptions",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        },
+        "AEx": {
+            "caption": "responsive",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/responsive/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "responsive",
+            "optional": true,
+            "rank": 12,
+            "value": "text"
+        },
+        "AEy": {
+            "caption": "series",
+            "default_val": "[]",
+            "doc": "https://apexcharts.com/docs/options/series/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "series",
+            "rank": 13,
+            "value": "text"
+        },
+        "AEz": {
+            "caption": "states",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/states/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "states",
+            "optional": true,
+            "rank": 14,
+            "value": "text"
+        },
+        "AFA": {
+            "caption": "stroke",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/stroke/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "stroke",
+            "optional": true,
+            "rank": 15,
+            "value": "text"
+        },
+        "AFB": {
+            "caption": "subtitle",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/subtitle/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "subtitle",
+            "optional": true,
+            "rank": 16,
+            "value": "text"
+        },
+        "AFC": {
+            "caption": "theme",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/theme/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "theme",
+            "optional": true,
+            "rank": 17,
+            "value": "text"
+        },
+        "AFD": {
+            "caption": "title",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/title/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "title",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "AFE": {
+            "caption": "tooltip",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/tooltip/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "tooltip",
+            "optional": true,
+            "rank": 19,
+            "value": "text"
+        },
+        "AFF": {
+            "caption": "xaxis",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/xaxis/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "xaxis",
+            "optional": true,
+            "rank": 20,
+            "value": "text"
+        },
+        "AFG": {
+            "caption": "yaxis",
+            "default_val": "",
+            "doc": "https://apexcharts.com/docs/options/yaxis/",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "yaxis",
+            "optional": true,
+            "rank": 21,
+            "value": "text"
+        }
+    },
+    "icon": "ion-stats-bars",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}

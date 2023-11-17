@@ -1,0 +1,192 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Apex Chart (data x/y)",
+    "events": {
+        "ADo": {
+            "caption": "Has been updated",
+            "name": "updated"
+        }
+    },
+    "fields": {
+        "ADp": {
+            "caption": "defaultOptions",
+            "default_val": "{   \"series\":[         ],   \"chart\":{       \"type\":\"bar\",       \"toolbar\" : {         \"show\": false       },       \"height\":350   },   \"plotOptions\":{       \"bar\":{         \"horizontal\":false,         \"columnWidth\":\"80%\",         \"borderRadius\":3       }   },   \"legend\":{       \"show\":true,       \"position\":\"top\",       \"horizontalAlign\":\"right\",       \"markers\":{         \"width\":8,         \"height\":8,         \"radius\":300       }   },   \"grid\":{       \"show\":false   },   \"dataLabels\":{       \"enabled\":false   },   \"stroke\":{       \"show\":true,       \"width\":2,       \"colors\":[         \"transparent\"       ]   },   \"xaxis\":{       \"axisBorder\":{         \"show\":false       },       \"categories\":[               ]   },   \"yaxis\":{       \"axisBorder\":{         \"show\":false       },       \"labels\":{         \"show\":false       },       \"title\":{         \"text\":\"\"       }   },   \"colors\":[       \"#2F45C5\"   ],   \"fill\":{       \"type\":\"gradient\",       \"gradient\":{         \"type\":\"vertical\",         \"colorStops\":[             [               {                   \"offset\":0,                   \"color\":\"#2CA1E1\",                   \"opacity\":1               },               {                   \"offset\":100,                   \"color\":\"#2C65E1\",                   \"opacity\":1               }             ],             [               {                   \"offset\":100,                   \"color\":\"#E8F3FC\",                   \"opacity\":1               }             ]         ]       },       \"opacity\":1   },   \"tooltip\":{       \"y\":{         \"formatter\":{                     }       }   } }",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "defaultOptions",
+            "rank": 0,
+            "value": "text"
+        },
+        "ADq": {
+            "caption": "Serie's 1 name",
+            "editor": "DynamicValue",
+            "name": "serieName1",
+            "rank": 4,
+            "value": "text"
+        },
+        "ADr": {
+            "caption": "Serie's 1 datas",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "serieDatas1",
+            "optional": false,
+            "rank": 5,
+            "value": "number"
+        },
+        "ADs": {
+            "caption": "Serie's 2 name",
+            "editor": "DynamicValue",
+            "name": "serieName2",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "ADt": {
+            "caption": "Serie's 2 datas",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "serieDatas2",
+            "optional": true,
+            "rank": 8,
+            "value": "number"
+        },
+        "ADu": {
+            "caption": "Serie's 3 name",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "serieName3",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "ADv": {
+            "caption": "Serie's 3 datas",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "serieDatas3",
+            "optional": true,
+            "rank": 11,
+            "value": "number"
+        },
+        "ADw": {
+            "caption": "Serie's 4 name",
+            "editor": "DynamicValue",
+            "name": "serieName4",
+            "optional": true,
+            "rank": 13,
+            "value": "text"
+        },
+        "ADx": {
+            "caption": "Serie's 4 datas",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "serieDatas4",
+            "optional": true,
+            "rank": 14,
+            "value": "number"
+        },
+        "ADy": {
+            "caption": "Serie's 4 name",
+            "editor": "DynamicValue",
+            "name": "serieName5",
+            "optional": true,
+            "rank": 16,
+            "value": "text"
+        },
+        "ADz": {
+            "caption": "Serie's 5 datas",
+            "doc": "",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "serieDatas5",
+            "optional": true,
+            "rank": 17,
+            "value": "number"
+        },
+        "AEA": {
+            "caption": "X labels",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "xAxisDatas",
+            "rank": 1,
+            "value": "text"
+        },
+        "AEB": {
+            "caption": "Datas formatted text function",
+            "default_val": "val + \"%\"",
+            "doc": "Use \"val\" as the variable for the data to format",
+            "editor": "DynamicValue",
+            "name": "dataFormattedText",
+            "rank": 2,
+            "value": "text"
+        },
+        "AEC": {
+            "caption": "Is serie 1 Used ?",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "isUsed1",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AED": {
+            "caption": "Is serie 2 Used ?",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "isUsed2",
+            "rank": 6,
+            "value": "boolean"
+        },
+        "AEE": {
+            "caption": "Is serie 3 Used ?",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "isUsed3",
+            "rank": 9,
+            "value": "boolean"
+        },
+        "AEF": {
+            "caption": "Is Serie 4 Used ?",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "isUsed4",
+            "rank": 12,
+            "value": "boolean"
+        },
+        "AEG": {
+            "caption": "Is Serie 5 Used ?",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "isUsed5",
+            "options": "",
+            "rank": 15,
+            "value": "boolean"
+        },
+        "AEI": {
+            "caption": "Enhanced List",
+            "doc": "Coordinates of the data to enhance beginning at 0 (ex : [[0,1], [1,2]] will target 2nd point of Serie 1 and 3rd point of Serie 2)",
+            "editor": "DynamicValue",
+            "name": "enhancedList",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "AEJ": {
+            "caption": "Enhanced Color",
+            "editor": "DynamicValue",
+            "name": "enhancedColor",
+            "optional": true,
+            "rank": 19,
+            "value": "text"
+        }
+    },
+    "icon": "ion-stats-bars",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}

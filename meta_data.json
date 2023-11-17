@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "data (things)"
+    },
+    "description": "Charts Plugin for Cube using Apexcharts.js",
+    "image": "//s3.amazonaws.com/appforest_uf/f1631006476169x586929630512463000/logo.png",
+    "license": "open_source",
+    "link": "",
+    "name": "ApexCharts",
+    "plugin_instructions": "Documentation : \nhttps://app.gitbook.com/@corentin-laborie/s/apexcharts-js/",
+    "sa_node_version": 18
+}

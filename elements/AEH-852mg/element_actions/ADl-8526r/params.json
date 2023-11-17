@@ -1,0 +1,19 @@
+{
+    "caption": "select",
+    "fields": {
+        "ADm": {
+            "caption": "serie",
+            "editor": "DynamicValue",
+            "name": "serie",
+            "rank": 0,
+            "value": "number"
+        },
+        "ADn": {
+            "caption": "item",
+            "editor": "DynamicValue",
+            "name": "item",
+            "rank": 1,
+            "value": "number"
+        }
+    }
+}
